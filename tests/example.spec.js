@@ -18,4 +18,5 @@ test('get started link', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
   // this is test push git branch dev
   // this is change by git hub.
+  //this is updated by pc.
 });
